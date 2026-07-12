@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asset Flow Signin</title>
+    <link rel="stylesheet" href="up_in.css" >
+</head>
+<body>
+                <!--SignIN Form-->
+            <form id="signin" action="dashboard.html" onsubmit="return signin()">
+                        <h2> SignIn </h2>
+                    <p>
+                        <input type="email" name="email" id="signinEmail" placeholder="Enter Email" autocomplete="off" required> 
+                    </p>
+                    <p>
+                        <input type="password" name="password" id="signinPwd" placeholder="Enter Password" required> 
+                    </p>
+                    
+                    <p>
+                        <button type="submit">SignIn</button>
+                    </p>
+                    <p>
+                        Don't have an account? <a href="signup.html">Signup</a>
+                    </p>
+            </form>
+
+            <script src="form.js">  </script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asset Flow Signup</title>
+    <link rel="stylesheet" href="up_in.css" >
+</head>
+<body>
+        <h1 align="center" style="background-color:rgb(86, 203, 223) ;border: solid black 5px; padding: 5px;"> Create an Employee Account </h1>
+                <!--SignUp Form-->
+            <form id="signup" action="dashboard.html" onsubmit="return signup()">
+                        <h2> SignUp </h2>
+                    <p>
+                        <input type="email" name="email" id="signupEmail" placeholder="Enter Email" autocomplete="off" required>  
+                    </p>
+                    <p>
+                        <input type="password" name="password" id="signupPwd" placeholder="Enter Password" required> 
+                    </p>
+                    
+                    <p>
+                        <button type="submit">SignUp</button>
+                    </p>
+                    <p>
+                        Already have an account? <a href="signin.html">Login </a>
+                    </p>
+            </form>
+
+            <script src="form.js">  </script>
+</body>
+</html>

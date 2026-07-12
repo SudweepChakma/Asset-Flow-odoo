@@ -1,0 +1,48 @@
+body
+    {
+        background-color: rgb(154, 159, 159);
+        margin: 50px 500px 50px 500px;
+    }
+
+button
+    {
+        color: white;
+        text-align: center;
+        background-color: rgb(247, 161, 87);
+        padding: 5px 30px 5px 30px;
+        border: solid black 3px;
+        font-weight: bold;
+    }
+
+input
+    {
+        border: solid black 3px;
+        padding: 10px;
+    }    
+    
+#signup
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: solid black 5px;
+        background-color: rgb(146, 202, 236);
+    }
+
+#signin
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: solid black 5px;
+        background-color: rgb(108, 214, 237);
+    }
+
+/*anchor tag*/
+a 
+    {
+        background-color: greenyellow;
+        color: rgb(132, 0, 255);
+        border: solid black 3px;
+        padding: 3px;
+    }   
